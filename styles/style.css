@@ -22,3 +22,15 @@ li a {
    display: block;
    padding-left: 10px;
 }
+#center {
+    display: flex;
+    justify-content: center;
+}
+#footer-nav {
+    background-color: rgb(187, 187, 187);
+    padding: 20px;
+    position: fixed;
+    overflow: hidden;
+    bottom: 0;
+    width: 100%;
+}
