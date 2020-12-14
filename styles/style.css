@@ -61,12 +61,12 @@ img {
    border-top: 1px solid #dadce0;
    width: 100%;
    font-size: 15px;
-   margin-left: 20px;
+
  
   }
   .bottomNavLeft {
     padding-right: 2em;
-
+    margin-left: 10px;
   }
   .bottomNavLeft a {
       text-decoration: none;
@@ -76,7 +76,8 @@ img {
       margin: auto;
   }
   #leaf {
-      width: 50%;
+      width: 60%;
+      margin-left: -4px;
   }
   .bottomNavCenter {
 
