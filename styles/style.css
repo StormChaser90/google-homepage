@@ -10,7 +10,7 @@ img {
     margin-right: auto;
     width: 450px;
 }
-#search_bar input {
+#search-bar input {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -39,7 +39,7 @@ img {
   }
   .bottomNavLeft a {
       text-decoration: none;
-      color: rgb(99, 99, 99);
+      color: rgb(99, 99, 99;)
   }
   #bottomGapL {
       margin: auto;
