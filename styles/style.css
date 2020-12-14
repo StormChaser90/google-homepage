@@ -2,11 +2,13 @@
     display: flex;
     width: 100%;
     padding-left: 20px;
+    align-items: center;
 }
 .nav-bar a {
     text-decoration: none;
     color: black;
     font-size: 14px;
+
 }
 .topNavLeft {
     padding-right: 2em;
@@ -23,7 +25,7 @@
     width: 20px;
 }
 #sign-in {
-    padding-right: 40px;
+    padding-right: 35px;
 
 }
 #sign-in button {
@@ -34,6 +36,7 @@
     padding: 8px 15px;
     text-align: center;
     font-size: 12px;
+    font-weight: 600;
 
 }
 .topNavRight {
