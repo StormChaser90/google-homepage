@@ -1,12 +1,37 @@
+.nav-bar {
+    display: flex;
+    width: 100%;
+
+}
 .nav-bar a {
     text-decoration: none;
     color: black;
-    padding: 10px;
-    list-style: none;
+    font-size: 14px;
+}
+.topNavLeft {
+    padding-left: 2em;
+
+}
+.topNavLeft a {
+
+}
+#topGapC {
+    margin: auto;
 }
 #waffle {
     height: 20px;
     width: 20px;
+}
+#sign-in {
+
+
+}
+.topNavRight {
+    padding-right: 2em;
+
+}
+.topNavRight a {
+
 }
 img {
     display: block;
@@ -43,7 +68,7 @@ img {
   }
   .bottomNavLeft a {
       text-decoration: none;
-      color: rgb(99, 99, 99;)
+      color: rgb(99, 99, 99);
   }
   #bottomGapL {
       margin: auto;
