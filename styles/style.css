@@ -1,7 +1,8 @@
-#header-nav a {
+.nav-bar a {
     text-decoration: none;
     color: black;
     padding: 10px;
+    list-style: none;
 }
 img {
     display: block;
@@ -21,36 +22,42 @@ img {
     margin-right: auto;
     width: max-content
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-li {
-    float: left;
-}
-li a {
-   display: block;
-   padding-left: 10px;
-}
-#center {
+.box {
     display: flex;
+   align-items: center;
+   position: fixed;
+   bottom: 0;
+   height: 3em;
+   background-color: #f2f2f2;
+   border-top: 1px solid #dadce0;
+   width: 100%;
+   font-size: 14px;
+  }
+  .bottomNavLeft {
+    padding-right: 2em;
+    justify-content: start;
+  }
+  .bottomNavLeft a {
+      text-decoration: none;
+      color: rgb(99, 99, 99);
+  }
+  #bottomGapL {
+      margin: auto;
+  }
+  .bottomNavCenter {
     justify-content: center;
-}
-#footer-nav {
-    background-color: rgb(223, 223, 223);
-    padding: 5px;
-    position: fixed;
-    overflow: hidden;
-    bottom: 0;
-    width: 100%;
-}
-#footer-nav a {
-    display: block;
-    color: #626262;
-    text-align: center;
-    padding: 10px;
+  }
+  .bottomNavCenter a {
     text-decoration: none;
-    font-size: 16px;
+    color: rgb(99, 99, 99);
+}
+  #bottomGapR {
+    margin: auto;
+}
+  .bottomNavRight {
+    padding-right: 2em;
+ }
+ .bottomNavRight a {
+    text-decoration: none;
+    color: rgb(99, 99, 99);
 }
