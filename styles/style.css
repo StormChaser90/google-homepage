@@ -4,6 +4,10 @@
     padding: 10px;
     list-style: none;
 }
+#waffle {
+    height: 20px;
+    width: 20px;
+}
 img {
     display: block;
     margin-left: auto;
