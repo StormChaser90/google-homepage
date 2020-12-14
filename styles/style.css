@@ -50,11 +50,18 @@ img {
     margin-right: auto;
     width: 450px;
 }
+#search-bar {
+    
+}
 #search-bar input {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 400px;
+    border-radius: 60px;
+    border: 1px solid rgba(220, 220, 220, 0.625);
+    width: 500px;
+    height: 50px;
+
 }
 #search-button {
     display: flex;
