@@ -1,7 +1,7 @@
 .nav-bar {
     display: flex;
     width: 100%;
-
+    padding-left: 20px;
 }
 .nav-bar a {
     text-decoration: none;
@@ -9,11 +9,11 @@
     font-size: 14px;
 }
 .topNavLeft {
-    padding-left: 2em;
+    padding-right: 2em;
 
 }
 .topNavLeft a {
-
+    
 }
 #topGapC {
     margin: auto;
@@ -23,7 +23,7 @@
     width: 20px;
 }
 #sign-in {
-
+    padding-right: 40px;
 
 }
 .topNavRight {
@@ -60,11 +60,13 @@ img {
    background-color: #f2f2f2;
    border-top: 1px solid #dadce0;
    width: 100%;
-   font-size: 14px;
+   font-size: 15px;
+   margin-left: 20px;
+ 
   }
   .bottomNavLeft {
     padding-right: 2em;
-    justify-content: start;
+
   }
   .bottomNavLeft a {
       text-decoration: none;
@@ -73,8 +75,11 @@ img {
   #bottomGapL {
       margin: auto;
   }
+  #leaf {
+      width: 50%;
+  }
   .bottomNavCenter {
-    justify-content: center;
+
   }
   .bottomNavCenter a {
     text-decoration: none;
@@ -85,6 +90,7 @@ img {
 }
   .bottomNavRight {
     padding-right: 2em;
+
  }
  .bottomNavRight a {
     text-decoration: none;
