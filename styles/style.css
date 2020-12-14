@@ -26,7 +26,6 @@
 }
 #sign-in {
     padding-right: 35px;
-
 }
 #sign-in button {
     background-color: #4285F4;
@@ -37,7 +36,6 @@
     text-align: center;
     font-size: 12px;
     font-weight: 600;
-
 }
 .topNavRight {
     padding-right: 2em;
@@ -72,6 +70,9 @@ img {
     text-align: center;
     font-size: 16px;
 }
+#google-button:hover {
+    border: 1px solid rgba(123, 123, 123, 0.625);
+}
 #lucky-button {
     background-color: #ededed;
     border: none;
@@ -80,6 +81,9 @@ img {
     padding: 10px 25px;
     text-align: center;
     font-size: 16px;
+}
+#lucky-button:hover {
+    border: 1px solid rgba(123, 123, 123, 0.625);
 }
 .box {
     display: flex;
